@@ -1,0 +1,6 @@
+my-electron-app/
+├── main.js
+├── preload.js
+├── index.html
+├── renderer.js
+├── package.json
