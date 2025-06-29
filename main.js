@@ -36,7 +36,7 @@ ipcMain.handle("print-to-pdf", async () => {
   //   return { success: false };
 
   const options = {
-    silent: true,
+    silent: false,
     landscape: true,
     pagesPerSheet: 1,
     pageSize: "A5",
