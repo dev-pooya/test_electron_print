@@ -2,11 +2,13 @@
   "name": "my-electron-app",
   "version": "1.0.0",
   "main": "main.js",
+
   "scripts": {
     "start": "electron .",
     "dist": "electron-builder"
   },
   "build": {
+    "publish": null,
     "appId": "com.example.myapp",
     "productName": "MyElectronApp",
     "directories": {
